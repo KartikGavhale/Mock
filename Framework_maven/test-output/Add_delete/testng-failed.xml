@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Add_delete]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add&amp;delete(failed)">
+    <classes>
+      <class name="AddCartTest.DeleteFromCart">
+        <methods>
+          <include name="Main_Page"/>
+          <include name="DeleteItem"/>
+        </methods>
+      </class> <!-- AddCartTest.DeleteFromCart -->
+    </classes>
+  </test> <!-- Add&delete(failed) -->
+</suite> <!-- Failed suite [Add_delete] -->
