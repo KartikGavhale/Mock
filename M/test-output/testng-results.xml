@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T20:17:11 IST" name="Default suite" finished-at="2022-06-23T20:17:24 IST" duration-ms="13425">
+  <suite started-at="2022-06-24T10:53:31 IST" name="Default suite" finished-at="2022-06-24T10:53:49 IST" duration-ms="18230">
     <groups>
     </groups>
-    <test started-at="2022-06-23T20:17:11 IST" name="Default test" finished-at="2022-06-23T20:17:24 IST" duration-ms="13425">
+    <test started-at="2022-06-24T10:53:31 IST" name="Default test" finished-at="2022-06-24T10:53:49 IST" duration-ms="18230">
       <class name="Test.test1">
-        <test-method is-config="true" signature="open()[pri:0, instance:Test.test1@1d2adfbe]" started-at="2022-06-23T20:17:11 IST" name="open" finished-at="2022-06-23T20:17:14 IST" duration-ms="3263" status="PASS">
+        <test-method is-config="true" signature="open()[pri:0, instance:Test.test1@1d2adfbe]" started-at="2022-06-24T10:53:31 IST" name="open" finished-at="2022-06-24T10:53:34 IST" duration-ms="3289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
-        <test-method signature="T1()[pri:2, instance:Test.test1@1d2adfbe]" started-at="2022-06-23T20:17:14 IST" name="T1" finished-at="2022-06-23T20:17:24 IST" duration-ms="9929" status="PASS">
+        <test-method signature="T1()[pri:2, instance:Test.test1@1d2adfbe]" started-at="2022-06-24T10:53:34 IST" name="T1" finished-at="2022-06-24T10:53:49 IST" duration-ms="14477" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- T1 -->
-        <test-method is-config="true" signature="cls()[pri:0, instance:Test.test1@1d2adfbe]" started-at="2022-06-23T20:17:24 IST" name="cls" finished-at="2022-06-23T20:17:24 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="cls()[pri:0, instance:Test.test1@1d2adfbe]" started-at="2022-06-24T10:53:49 IST" name="cls" finished-at="2022-06-24T10:53:49 IST" duration-ms="419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cls -->

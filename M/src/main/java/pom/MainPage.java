@@ -33,10 +33,15 @@ public class MainPage
 		Utility U = new Utility();
 		String value = U.readXL(i, j);
 		char[] ch = value.toCharArray();
+		String neg = "-";
 		for(char c : ch)
 			{
 				String v = String.valueOf(c);
-				U.PressKey(driver,v);
+				if(v.equals(neg))
+				{
+					Subtraction.click();
+				}else {
+				U.PressKey(driver,v);}
 			}
 	}
 	
@@ -48,11 +53,16 @@ public class MainPage
 			Utility U = new Utility();
 			String value = U.readXL(i, j);
 			char[] ch = value.toCharArray();
+			String neg = "-";
 			for(char c : ch)
-			{
-				String v = String.valueOf(c);
-				U.PressKey(driver,v);
-			}
+				{
+					String v = String.valueOf(c);
+					if(v.equals(neg))
+					{
+						Subtraction.click();
+					}else {
+					U.PressKey(driver,v);}
+				}
 		
 	}
 	public void ClickOperation(int i) throws EncryptedDocumentException, IOException

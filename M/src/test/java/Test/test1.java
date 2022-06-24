@@ -23,7 +23,7 @@ public class test1 extends BaseClass
 	@Test(priority =2, enabled= true)
 	public void T1() throws EncryptedDocumentException, IOException
 	{
-		for(int i=1 ; i<4 ; i++)
+		for(int i=1 ; i<=4 ; i++)
 		{
 		MainPage Mp = new MainPage(driver);
 		Mp.ClickN1(driver, i);
@@ -34,7 +34,7 @@ public class test1 extends BaseClass
 		String B = Mp.ResultCheck(i);
 		SoftAssert S = new SoftAssert();
 		S.assertEquals(A, B);
-		System.out.println("Test for Expression "+i+ " passed");
+		System.out.println("Test for Expression "+i+ " passed"+ " value is :" + A);
 		Mp.AC.click();
 		}
 	}
