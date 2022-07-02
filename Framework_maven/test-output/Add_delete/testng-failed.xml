@@ -6,7 +6,7 @@
       <class name="AddCartTest.DeleteFromCart">
         <methods>
           <include name="Main_Page"/>
-          <include name="DeleteItem"/>
+          <include name="ToCart"/>
         </methods>
       </class> <!-- AddCartTest.DeleteFromCart -->
     </classes>

@@ -9,7 +9,7 @@ public class BaseClass
 	public static void Page()
 	{
 		String key = "webdriver.chrome.driver";
-		String value ="D:\\softwares\\Selenium\\chromedriver_win32\\chromedriver.exe";
+		String value = "D:\\GIT\\Mock\\Framework_maven\\source\\chromedriver.exe" ;
 		System.setProperty(key, value);
 		 D= new ChromeDriver();
 		D.get("https://www.amazon.in/");

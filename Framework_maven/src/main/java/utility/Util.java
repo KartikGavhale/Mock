@@ -21,7 +21,7 @@ public class Util
 	
 	public static String  Data (int row, int col) throws EncryptedDocumentException, IOException
 	{
-		String path = "D:\\aspire work\\java\\workspace\\Apache_poi\\DATA\\GRP15.xlsx" ;
+		String path = "D:\\aspire work\\Excel\\GRP15.xlsx";
 		
 		FileInputStream f = new FileInputStream(path);
 		Workbook WB=WorkbookFactory.create(f);

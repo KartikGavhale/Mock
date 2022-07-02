@@ -1,39 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-06-23T14:50:13 IST" name="Default suite" finished-at="2022-06-23T14:50:25 IST" duration-ms="12595">
+  <suite started-at="2022-07-02T10:53:38 IST" name="Add_delete" finished-at="2022-07-02T10:54:13 IST" duration-ms="35293">
     <groups>
     </groups>
-    <test started-at="2022-06-23T14:50:13 IST" name="Default test" finished-at="2022-06-23T14:50:25 IST" duration-ms="12595">
+    <test started-at="2022-07-02T10:53:38 IST" name="Add&amp;delete" finished-at="2022-07-02T10:54:13 IST" duration-ms="35293">
       <class name="AddCartTest.DeleteFromCart">
-        <test-method is-config="true" signature="Main_Page()[pri:0, instance:AddCartTest.DeleteFromCart@6200f9cb]" started-at="2022-06-23T14:50:13 IST" name="Main_Page" finished-at="2022-06-23T14:50:17 IST" duration-ms="4187" status="PASS">
+        <test-method is-config="true" signature="Main_Page()[pri:0, instance:AddCartTest.DeleteFromCart@55b699ef]" started-at="2022-07-02T10:54:00 IST" name="Main_Page" finished-at="2022-07-02T10:54:02 IST" duration-ms="2603" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Main_Page -->
-        <test-method signature="ToCart()[pri:1, instance:AddCartTest.DeleteFromCart@6200f9cb]" started-at="2022-06-23T14:50:17 IST" name="ToCart" finished-at="2022-06-23T14:50:25 IST" duration-ms="8193" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
+        <test-method signature="ToCart()[pri:1, instance:AddCartTest.DeleteFromCart@55b699ef]" started-at="2022-07-02T10:54:02 IST" name="ToCart" finished-at="2022-07-02T10:54:11 IST" duration-ms="8767" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='nav-cart']"}
-  (Session info: chrome=103.0.5060.53)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DELLINSPIRON', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+              <![CDATA[unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [052a916903b156c332b3bed318ce634c, findElement {using=xpath, value=//a[@id='nav-cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\gavha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61721/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 052a916903b156c332b3bed318ce634c]]>
+Command: [c49d8940adbfdb84b529125731701025, clickElement {id=7dd42d95-5597-40b0-96f6-c674d9f8fa11}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\gavha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56999/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c49d8940adbfdb84b529125731701025)] -> xpath: //a[@id='nav-cart']]
+Session ID: c49d8940adbfdb84b529125731701025]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@id='nav-cart']"}
-  (Session info: chrome=103.0.5060.53)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'DELLINSPIRON', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: unexpected command response
+  (Session info: chrome=103.0.5060.66)
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DELL', ip: '192.168.1.7', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [052a916903b156c332b3bed318ce634c, findElement {using=xpath, value=//a[@id='nav-cart']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.53, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\gavha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61721}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61721/devtoo..., se:cdpVersion: 103.0.5060.53, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 052a916903b156c332b3bed318ce634c
+Command: [c49d8940adbfdb84b529125731701025, clickElement {id=7dd42d95-5597-40b0-96f6-c674d9f8fa11}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.66, chrome: {chromedriverVersion: 103.0.5060.53 (a1711811edd7..., userDataDir: C:\Users\gavha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56999}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56999/devtoo..., se:cdpVersion: 103.0.5060.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (c49d8940adbfdb84b529125731701025)] -> xpath: //a[@id='nav-cart']]
+Session ID: c49d8940adbfdb84b529125731701025
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
@@ -43,13 +45,12 @@ at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpRespo
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:257)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:78)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:52)
 at jdk.proxy2/jdk.proxy2.$Proxy15.click(Unknown Source)
 at mainPage.Main_page.cart(Main_page.java:52)
 at AddCartTest.DeleteFromCart.ToCart(DeleteFromCart.java:28)
@@ -81,15 +82,33 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ToCart -->
-        <test-method signature="DeleteItem()[pri:2, instance:AddCartTest.DeleteFromCart@6200f9cb]" started-at="2022-06-23T14:50:25 IST" name="DeleteItem" finished-at="2022-06-23T14:50:25 IST" duration-ms="152" status="PASS">
+        <test-method signature="DeleteItem()[pri:2, instance:AddCartTest.DeleteFromCart@55b699ef]" started-at="2022-07-02T10:54:11 IST" name="DeleteItem" finished-at="2022-07-02T10:54:13 IST" duration-ms="2519" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DeleteItem -->
       </class> <!-- AddCartTest.DeleteFromCart -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="AddCartTest.TestClass_AddProductToCart">
+        <test-method is-config="true" signature="mainpage()[pri:0, instance:AddCartTest.TestClass_AddProductToCart@74f0ea28]" started-at="2022-07-02T10:53:38 IST" name="mainpage" finished-at="2022-07-02T10:53:48 IST" duration-ms="9864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainpage -->
+        <test-method signature="searchpage()[pri:1, instance:AddCartTest.TestClass_AddProductToCart@74f0ea28]" started-at="2022-07-02T10:53:48 IST" name="searchpage" finished-at="2022-07-02T10:53:55 IST" duration-ms="7040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchpage -->
+        <test-method signature="switchpage()[pri:2, instance:AddCartTest.TestClass_AddProductToCart@74f0ea28]" started-at="2022-07-02T10:53:55 IST" name="switchpage" finished-at="2022-07-02T10:53:57 IST" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchpage -->
+        <test-method signature="product()[pri:3, instance:AddCartTest.TestClass_AddProductToCart@74f0ea28]" started-at="2022-07-02T10:53:57 IST" name="product" finished-at="2022-07-02T10:54:00 IST" duration-ms="2413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- product -->
+      </class> <!-- AddCartTest.TestClass_AddProductToCart -->
+    </test> <!-- Add&delete -->
+  </suite> <!-- Add_delete -->
 </testng-results>
