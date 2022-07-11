@@ -1,5 +1,4 @@
-package base;
-
+package java.main;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -9,7 +8,7 @@ public class BaseClass
 	public void Start()
 	{
 		String Key = "webdriver.chrome.driver";
-		String Value = "D:\\softwares\\Selenium\\chromedriver_win32\\chromedriver.exe";
+		String Value = "D:\\softwares\\Selenium\\chromedriver_win32\\chromedriver.exe" ;
 		System.setProperty(Key, Value);
 		 driver = new ChromeDriver();
 		String URL ="https://www.calculator.net/";

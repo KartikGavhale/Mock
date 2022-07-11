@@ -1,5 +1,4 @@
-package util;
-
+package java.main;
 import java.io.FileInputStream;
 import java.io.IOException;
 
@@ -12,7 +11,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Utility 
+public class Utitlity 
 {
 	public String readXL(int i , int j) throws EncryptedDocumentException, IOException
 	{
@@ -44,15 +43,11 @@ public class Utility
 	
 	public void PressKey(WebDriver driver , String a)
 	{
-		String beforRow = "//*[@id='sciout']/tbody/tr[2]/td[2]/div/div[";
-		String beforCol = "]/span[";
-		String after = "]";
 	for(int i=1 ; i<=5 ; i ++)
 	{
-		
 		for(int j = 1 ; j<=5 ; j++)
 		{
-			String xpath = beforRow + i +beforCol+ j + after;
+			String xpath = "//*[@id=\\\"sciout\\\"]/tbody/tr[2]/td[2]/div/div[" + i +"]/span["+ j + "]";
 			WebElement buttons= driver.findElement(By.xpath(xpath));
 			if (a.equals(buttons.getText()))
 			{
@@ -63,5 +58,4 @@ public class Utility
 	}
 
 	}
-
 }
